@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Quienes somos, nuestro inicio en el mercado epoxi."
+    />
+    <meta name="keywords" content="RESINA EPOXI, PROYECTO, DISEÑO, ARTE" />
+    <title>Sobre Nosotros</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- Font -->
+    <script
+      src="https://kit.fontawesome.com/8a815a169a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand fs-1" href="../index.html"
+            ><span class="text-warning">Resina-</span>Desing</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mbl-g-0 text-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-warning"
+                  aria-current="page"
+                  href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/tutoriales.html"
+                  >Tutoriales</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/error.html">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="presentacion">
+        <div class="flex-item1">
+          <h1 class="text-center mb-5">Quienes Somos</h1>
+          <p class="bg-light">
+            Parte de nuestra fundacion como profecionales en este mercado empezó
+            como un emprendimiento a corto plazo, la cual si funcionaba serviria
+            como prueba de que nos estabamos imaginando hacia el futuro y si se
+            lograra el obejtivo de crear nuestra propia marca en el mundo epoxi
+            adoptaria la importancia que le damos hoy en dia. Por eso nos
+            dedicamos al diseño y capacitacion para aquellas personas que
+            quieran descubrir ese potencial artistico de la mano de un producto
+            renovador, el cual se pueden hacer infinidades de diseños con el. La
+            Resina Epoxi es un gran producto en cuestion de utilizaciones y
+            nosotros te brindamos la ayuda necesaria para su utilizacion como
+            tambien el respaldo sobre que productos elegir en cada trabajo.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="py-5 bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg4 mb-4 mb-lg-5">
+              <div class="fw-bold text-uppercase text-heading mb-3">
+                <h3>Directory</h3>
+              </div>
+              <p class="text-edit">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <ul class="list-inline ubicacion">
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-pinterest"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.getElementById("menu");
+      window.onscroll = function () {
+        if (window.pageYOffset > 10) {
+          menu.style.backgroundColor = "#fff";
+        } else {
+          menu.style.backgroundColor = "initial";
+        }
+      };
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

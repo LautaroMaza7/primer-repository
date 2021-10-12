@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contáctenos" />
+    <meta name="keywords" content="RESINA EPOXI, PROYECTO, DISEÑO, ARTE" />
+    <title>Contáctenos</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!-- Font -->
+    <script
+      src="https://kit.fontawesome.com/8a815a169a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand fs-1" href="../index.html"
+            ><span class="text-warning">Resina-</span>Desing</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mbl-g-0 text-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-warning"
+                  aria-current="page"
+                  href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html"
+                  >Quienes Somos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/tutoriales.html"
+                  >Tutoriales</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/error.html">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="contactos">
+      <section id="form">
+        <div class="container mt-5 mb-5">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="text-center mb-5">Contacto</h1>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d822.2471161090609!2d-58.496547970766464!3d-34.47781689324713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9758b779baf%3A0x8e11a5dbd74acbaa!2sHada%20Nightly!5e0!3m2!1ses-419!2sar!4v1632261241165!5m2!1ses-419!2sar"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+            <div class="col-md-6">
+              <h2>Contactanos</h2>
+              <form action="">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="py-5 bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg4 mb-4 mb-lg-5">
+              <div class="fw-bold text-uppercase text-heading mb-3">
+                <h3>Directory</h3>
+              </div>
+              <p class="text-edit">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <ul class="list-inline ubicacion">
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+
+                <li class="list-inline-item">
+                  <a class="text-para" href="#"
+                    ><i class="fab fa-pinterest"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      const menu = document.getElementById("menu");
+      window.onscroll = function () {
+        if (window.pageYOffset > 10) {
+          menu.style.backgroundColor = "#fff";
+        } else {
+          menu.style.backgroundColor = "initial";
+        }
+      };
+    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
