@@ -86,6 +86,23 @@ h3 {
   background-color: rgb(134, 132, 132);
 }
 
+.gallery {
+  padding: 80px 0px;
+}
+img {
+  max-width: 100%;
+}
+.gallery img {
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+#gallery-popup .modal-img {
+  width: 100%;
+}
+
 //MIXINS
 
 @mixin caja-flex($principal, $cruzado, $wrap) {

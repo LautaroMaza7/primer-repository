@@ -1,32 +1,66 @@
 //FOOTER
 
-.p-70 {
-  padding: 70px;
-}
-.bg-gray {
-  background-color: #343533;
-}
-.py-6 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-.text-heading {
-  color: white;
-}
-.text-para {
-  color: salmon;
-}
-.text-edit {
-  color: white;
+.pie-pagina {
+  width: 100%;
+  background-color: #ee8c58;
 }
 
-/* footer {
-  min-height: 80px;
-  background-color: rgb(52, 53, 51);
-  margin-top: 0;
-  .footer-content {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-} */
+.pie-pagina .footer-proyectos {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #ee8c58;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: aqua;
+}
+.pie-pagina .grupo-2 {
+  background-color: #945838;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
