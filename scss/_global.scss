@@ -28,14 +28,20 @@ img {
 
 .servicios,
 .presentacion,
+.hero2,
 .footer-content {
   width: 80%;
   margin: auto;
 }
 
 .titulo-servicios,
-.presentacion {
+.presentacion,
+.hero2 {
   margin-bottom: 10%;
+}
+
+.accordion-button {
+  font-size: 2rem !important;
 }
 
 // Variables
@@ -52,7 +58,7 @@ p {
 }
 
 h2 {
-  font-size: $font-h2;
+  font-size: 3rem !important;
 }
 
 h3 {
@@ -89,9 +95,7 @@ h3 {
 .gallery {
   padding: 80px 0px;
 }
-img {
-  max-width: 100%;
-}
+
 .gallery img {
   background: #fff;
   padding: 15px;

@@ -21,20 +21,25 @@ img {
 
 .servicios,
 .presentacion,
+.hero2,
 .footer-content {
   width: 80%;
   margin: auto; }
 
 .titulo-servicios,
-.presentacion {
+.presentacion,
+.hero2 {
   margin-bottom: 10%; }
+
+.accordion-button {
+  font-size: 2rem !important; }
 
 p {
   font-size: 1.8rem;
   color: #3a3a3a; }
 
 h2 {
-  font-size: 2.4rem; }
+  font-size: 3rem !important; }
 
 h3 {
   font-size: 2rem;
@@ -62,9 +67,6 @@ h3 {
 
 .gallery {
   padding: 80px 0px; }
-
-img {
-  max-width: 100%; }
 
 .gallery img {
   background: #fff;
@@ -108,7 +110,7 @@ img {
 @media (max-width: 420px) {
   .presentacion div {
     text-align: center;
-    margin-bottom: 30px; }
+    margin-bottom: 10px; }
     .presentacion div h1,
     .presentacion div p {
       padding: 0; }
@@ -178,6 +180,69 @@ img {
 .pie-pagina .grupo-2 small {
   font-size: 15px; }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.container .card {
+  width: 330px;
+  height: 416px;
+  padding: 60px 30px;
+  margin: 20px;
+  background: #f2f3f7;
+  box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff;
+  border-radius: 20px; }
+
+.container .card .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.container .card .content .imgBx {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden; }
+
+.container .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.container .card .content .contentBx h4 {
+  color: #36187d;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 1px; }
+
+.container .card .content .contentBx h5 {
+  color: #6c758f;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center; }
+
+.container .card .content .sci {
+  margin-top: 20px; }
+
+.container .card .content .sci a {
+  text-decoration: none;
+  color: #6c758f;
+  font-size: 30px;
+  margin: 10px;
+  transition: color 0.4s; }
+
+.container .card .content .sci a:hover {
+  color: #0196e3; }
+
 .logo {
   width: 50%;
   height: 50%; }
@@ -229,11 +294,22 @@ nav {
     padding-right: 20px;
     padding-bottom: 10px; }
 
+.hero2 {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  .hero2 h1 {
+    margin-top: 0;
+    padding-right: 20px;
+    font-size: 3rem; }
+  .hero2 p {
+    padding-right: 20px;
+    padding-bottom: 10px; }
+
 .error-404 {
   padding-bottom: 100px; }
 
 .contactos {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 50px; }
 
 .servicios div {
